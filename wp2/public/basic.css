@@ -1,0 +1,7 @@
+h1 {
+  color: var(#f15000);
+  font-family: var("Tajawal", sans-serif);
+  -webkit-box-shadow: var(3px);
+          box-shadow: var(3px);
+}
+/*# sourceMappingURL=basic.css.map */

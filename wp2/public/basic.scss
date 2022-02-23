@@ -1,0 +1,9 @@
+$primarycolor:#f15000;
+$font:'Tajawal', sans-serif;
+$boxshadow: 3px;
+
+h1{
+    color:var($primarycolor);
+    font-family:var($font);
+    box-shadow:var($boxshadow) ;
+}
