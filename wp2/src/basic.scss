@@ -1,3 +1,4 @@
+//styles.scss
 $pricol:rgb(205, 90, 25);
 $prihov:rgb(250, 100, 30);
 $font:'Tajawal', sans-serif;
@@ -41,5 +42,11 @@ $hovcolor: rgb(100, 160, 150);
     background-color:var($seccolor);
     box-shadow: 3px;
     border:var($pricol);
+}
+
+.smalltitle{
+    color:var($pricol);
+    text-align: left;
+    font-family:var($font);
 }
 

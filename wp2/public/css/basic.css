@@ -43,4 +43,10 @@
   border: var(#cd5a19);
 }
 
+.smalltitle {
+  color: var(#cd5a19);
+  text-align: left;
+  font-family: var("Tajawal", sans-serif);
+}
+
 /*# sourceMappingURL=basic.css.map */
