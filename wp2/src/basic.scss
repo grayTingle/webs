@@ -8,12 +8,13 @@ $hovcolor: rgb(100, 160, 150);
 .bigtitle{
     color:var($pricol);
     font-family:var($font);
-    box-shadow:var($boxshadow) ;
+    box-shadow:var($boxshadow);
 }
 
 .topnav {
     background-color:var($seccolor);
-    overflow: hidden;} 
+    overflow: hidden;
+    margin-left: 10% ;} 
 
   .topnav a {
     float: left;
@@ -23,7 +24,6 @@ $hovcolor: rgb(100, 160, 150);
     text-decoration: none;
     font-size: 17px;}
 
-  
   .topnav a:hover {
     background-color:var($hovcolor);
     color:var($prihov);}
@@ -35,5 +35,11 @@ $hovcolor: rgb(100, 160, 150);
     .navbut{
         background-color:var($seccolor);}
     .navbut :hover{
-        background-color:var($hovcolor) ;
-    }
+        background-color:var($hovcolor) ;}
+
+.box{
+    background-color:var($seccolor);
+    box-shadow: 3px;
+    border:var($pricol);
+}
+
