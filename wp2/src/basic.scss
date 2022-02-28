@@ -1,9 +1,32 @@
-$pricol:rgb(95, 45, 110);
+$pricol:rgb(205, 90, 25);
 $font:'Tajawal', sans-serif;
 $boxshadow: 3px;
+$seccolor: rgb(135, 205, 190);
+$hovcolor: rgb(100, 160, 150);
 
-h1{
+.bigtitle{
     color:var($pricol);
     font-family:var($font);
     box-shadow:var($boxshadow) ;
 }
+
+.topnav {
+    background-color:var($seccolor);
+    overflow: hidden;} 
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+
+  
+  .topnav a:hover {
+    background-color:var($hovcolor);
+    color: black;}
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;}
