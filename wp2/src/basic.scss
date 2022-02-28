@@ -1,9 +1,9 @@
-$primarycolor:#f15000;
+$pricol:rgb(95, 45, 110);
 $font:'Tajawal', sans-serif;
 $boxshadow: 3px;
 
 h1{
-    color:var($primarycolor);
+    color:var($pricol);
     font-family:var($font);
     box-shadow:var($boxshadow) ;
 }
