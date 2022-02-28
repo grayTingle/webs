@@ -1,7 +1,31 @@
-h1 {
-  color: var(#f15000);
+.bigtitle {
+  color: var(#cd5a19);
   font-family: var("Tajawal", sans-serif);
-  -webkit-box-shadow: var(3px);
-          box-shadow: var(3px);
+  box-shadow: var(3px);
 }
+
+.topnav {
+  background-color: var(#87cdbe);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: var(#64a096);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 /*# sourceMappingURL=basic.css.map */
