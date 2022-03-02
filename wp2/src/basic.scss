@@ -55,12 +55,16 @@ background-color:$bg;
     border-radius: 5%;
 }
 
+
+
+
+/**HOW DO I MAKE IT DISPLAY INLINE I DON'T KNOOOOOOOOOOOOOOOOW**/
 .smalltitle{
     color:$pricol;
     text-align: left;
     font-family:$fontit;
     margin: 30px;
-    display:inline-table;
+    display:inline;
 }
 
 .text{
@@ -75,8 +79,7 @@ background-color:$bg;
 }
 
 figure{
-  display: inline;
-  width: fit-content;
+width: auto;
 }
 
 

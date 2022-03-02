@@ -54,12 +54,13 @@ body {
   border-radius: 5%;
 }
 
+/**HOW DO I MAKE IT DISPLAY INLINE I DON'T KNOOOOOOOOOOOOOOOOW**/
 .smalltitle {
   color: #cd5a19;
   text-align: left;
   font-family: "Asul", sans-serif;
   margin: 30px;
-  display: inline-table;
+  display: inline;
 }
 
 .text {
@@ -72,10 +73,11 @@ body {
 }
 
 figure {
+  width: auto;
+}
+
+.liner {
   display: inline;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .botnav {
