@@ -1,18 +1,25 @@
+body {
+  background-color: #2aa89e;
+}
+
 .bigtitle {
-  color: var(#cd5a19);
-  font-family: var("Tajawal", sans-serif);
-  box-shadow: var(3px);
+  color: #cd5a19;
+  font-family: "Asul", sans-serif;
+  -webkit-box-shadow: 3px;
+          box-shadow: 3px;
+  text-align: center;
 }
 
 .topnav {
-  background-color: var(#87cdbe);
+  background-color: #82faf0;
   overflow: hidden;
-  margin-left: 10%;
+  margin: auto;
+  font-family: "Tajawal", sans-serif;
 }
 
 .topnav a {
   float: left;
-  color: var(#cd5a19);
+  color: #cd5a19;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,33 +27,88 @@
 }
 
 .topnav a:hover {
-  background-color: var(#64a096);
-  color: var(#fa641e);
+  background-color: #b4faf0;
+  color: #fa641e;
 }
 
 .topnav a.active {
   background-color: #99d4be;
-  color: var(#cd5a19);
+  color: #cd5a19;
 }
 
 .navbut {
-  background-color: var(#87cdbe);
+  background-color: #82faf0;
 }
 
 .navbut :hover {
-  background-color: var(#64a096);
+  background-color: #b4faf0;
 }
 
 .box {
-  background-color: var(#87cdbe);
-  box-shadow: 3px;
-  border: var(#cd5a19);
+  background-color: #82faf0;
+  -webkit-box-shadow: 3px;
+          box-shadow: 3px;
+  border: #cd5a19;
+  margin: 120px;
+  padding: 50px;
+  border-radius: 5%;
 }
 
 .smalltitle {
-  color: var(#cd5a19);
+  color: #cd5a19;
   text-align: left;
-  font-family: var("Tajawal", sans-serif);
+  font-family: "Asul", sans-serif;
+  margin: 30px;
+  display: inline-table;
 }
 
+.text {
+  font-family: "Tajawal", sans-serif;
+  color: #cd5a19;
+}
+
+.para {
+  width: 50%;
+}
+
+figure {
+  display: inline;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.botnav {
+  background-color: #82faf0;
+  overflow: hidden;
+  margin: auto;
+  font-family: "Tajawal", sans-serif;
+}
+
+.botnav a {
+  float: left;
+  color: #cd5a19;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: #b4faf0;
+  color: #fa641e;
+}
+
+.botnav a.active {
+  background-color: #99d4be;
+  color: #cd5a19;
+}
+
+.navbut {
+  background-color: #82faf0;
+}
+
+.navbut :hover {
+  background-color: #b4faf0;
+}
 /*# sourceMappingURL=basic.css.map */

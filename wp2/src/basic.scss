@@ -1,52 +1,111 @@
-//styles.scss
 $pricol:rgb(205, 90, 25);
 $prihov:rgb(250, 100, 30);
 $font:'Tajawal', sans-serif;
+$fontit:'Asul', sans-serif;
 $boxshadow: 3px;
-$seccolor: rgb(135, 205, 190);
-$hovcolor: rgb(100, 160, 150);
+$seccolor: rgb(130, 250, 240);
+$bg:rgb(42, 168, 158);
+$hovcolor: rgb(180, 250, 240);
 
-.bigtitle{
-    color:var($pricol);
-    font-family:var($font);
-    box-shadow:var($boxshadow);
+body{
+background-color:$bg;
 }
 
+.bigtitle{
+    color:$pricol;
+    font-family:$fontit;
+    box-shadow:$boxshadow;
+    text-align: center;
+}
+
+
 .topnav {
-    background-color:var($seccolor);
+    background-color:$seccolor;
     overflow: hidden;
-    margin-left: 10% ;} 
+    margin: auto;
+    font-family:$font;} 
 
   .topnav a {
     float: left;
-    color:var($pricol);
+    color:$pricol;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;}
 
   .topnav a:hover {
-    background-color:var($hovcolor);
-    color:var($prihov);}
+    background-color:$hovcolor;
+    color:$prihov;}
 
   .topnav a.active {
     background-color: #99d4be;
-    color:var($pricol);}
+    color:$pricol;}
 
     .navbut{
-        background-color:var($seccolor);}
+        background-color:$seccolor;}
     .navbut :hover{
-        background-color:var($hovcolor) ;}
+        background-color:$hovcolor ;}
 
 .box{
-    background-color:var($seccolor);
+    background-color:$seccolor;
     box-shadow: 3px;
-    border:var($pricol);
+    border:$pricol;
+    margin:120px;
+    padding: 50px;
+    border-radius: 5%;
 }
 
 .smalltitle{
-    color:var($pricol);
+    color:$pricol;
     text-align: left;
-    font-family:var($font);
+    font-family:$fontit;
+    margin: 30px;
+    display:inline-table;
 }
 
+.text{
+  font-family:$font;
+  color:$pricol;
+
+}
+
+
+.para{
+  width: 50%;
+}
+
+figure{
+  display: inline;
+  width: fit-content;
+}
+
+
+
+
+
+.botnav {
+  background-color:$seccolor;
+  overflow: hidden;
+  margin: auto;
+  font-family:$font;} 
+
+.botnav a {
+  float: left;
+  color:$pricol;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+.botnav a:hover {
+  background-color:$hovcolor;
+  color:$prihov;}
+
+.botnav a.active {
+  background-color: #99d4be;
+  color:$pricol;}
+
+  .navbut{
+      background-color:$seccolor;}
+  .navbut :hover{
+      background-color:$hovcolor;}
