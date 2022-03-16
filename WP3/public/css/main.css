@@ -1,0 +1,25 @@
+.butt {
+  border-width: 1px;
+  padding: 3px;
+  margin: 3px;
+}
+.butt:hover {
+  border-width: 0px;
+}
+.butt-primary {
+  border-color: blue;
+}
+.butt-warning {
+  border-color: orange;
+}
+.butt-danger {
+  border-color: red;
+}
+.butt-success {
+  border-color: green;
+}
+.butt-info {
+  border-color: gray;
+}
+
+/*# sourceMappingURL=main.css.map */
