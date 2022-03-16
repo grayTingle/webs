@@ -10,4 +10,18 @@
     &-primary{
         border-color: $primary;
     }
+
+    &-warning{
+        border-color: $warning;
+    }
+    &-danger{
+        border-color: $danger;
+    }    
+    &-success{
+        border-color: $success;
+    }
+    &-info{
+        border-color: $info;
+    }
+
 }
