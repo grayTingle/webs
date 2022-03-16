@@ -1,25 +1,31 @@
 .butt {
+  text-decoration: none;
   border-width: 1px;
   padding: 3px;
   margin: 3px;
 }
+
 .butt:hover {
   border-width: 0px;
 }
-.butt-primary {
+
+.butt .butt-primary {
   border-color: blue;
 }
-.butt-warning {
+
+.butt .butt-warning {
   border-color: orange;
 }
-.butt-danger {
+
+.butt .butt-danger {
   border-color: red;
 }
-.butt-success {
+
+.butt .butt-success {
   border-color: green;
 }
-.butt-info {
+
+.butt .butt-info {
   border-color: gray;
 }
-
 /*# sourceMappingURL=main.css.map */
