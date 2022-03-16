@@ -1,0 +1,56 @@
+@import "/WP4/src/config/config.scss";
+
+.toptit{
+    font-family: $toptit;
+}
+
+.navbar {
+    background-color:$bg;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+.navbar a {
+    float: left;
+    font-family: $text;
+    display: block;
+    color:$textcol;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+        &:hover {
+            background-color:$bghov;
+            color:$textcol;
+            }
+  
+        &:active {
+            background-color:$bghov;
+            color:$textcol;
+            }
+}
+
+.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:$bg;
+  }
+  
+  .topmen a {
+    display: block;
+    color: $textcol;
+    padding: 8px 16px;
+    text-decoration: none;
+
+        &:hover {
+            background-color:$bghov;
+            color: $textcol;
+        }
+  }
+  

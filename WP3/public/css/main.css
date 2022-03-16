@@ -4,28 +4,23 @@
   padding: 3px;
   margin: 3px;
 }
-
 .butt:hover {
   border-width: 0px;
 }
-
 .butt .butt-primary {
   border-color: blue;
 }
-
 .butt .butt-warning {
   border-color: orange;
 }
-
 .butt .butt-danger {
   border-color: red;
 }
-
 .butt .butt-success {
   border-color: green;
 }
-
 .butt .butt-info {
   border-color: gray;
 }
+
 /*# sourceMappingURL=main.css.map */
