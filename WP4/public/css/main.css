@@ -1,21 +1,53 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "/WP4/src/components/comp.scss";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   WP4\src\main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"/WP4/src/components/comp.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   WP4\\src\\main.scss 1:9  root stylesheet";
+.toptit {
+  font-family: "Asul", sans-serif;
 }
 
+.navbar {
+  background-color: #b09ab9;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-/** I DON'T KNOW WHY IT DOES THIS!!!**/
-/**also sorry for not arranging the call with you, i wastoo hung up on other stuff**/
+.navbar a {
+  float: left;
+  font-family: "Tajawal", sans-serif;
+  display: block;
+  color: #241096;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #f7eeff;
+  color: #241096;
+}
+.navbar a:active {
+  background-color: #f7eeff;
+  color: #241096;
+}
+
+.top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #b09ab9;
+}
+
+.topmen a {
+  display: block;
+  color: #241096;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.topmen a:hover {
+  background-color: #f7eeff;
+  color: #241096;
+}
+
+/**parts need to start with _**/
+
+/*# sourceMappingURL=main.css.map */

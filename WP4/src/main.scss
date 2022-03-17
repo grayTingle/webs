@@ -1,8 +1,9 @@
-@import "/WP4/src/components/comp.scss";
-@import "/WP4/src/config/config.scss";
+@import "config/config";
+@import "components/comp";
+@import"components/menu";
+@import"components/sections";
 
-/** i am 0% sure why it doesn't work, man, i feel like this class is designed to frustrate me sometimes
-I KNOW it isn't difficult, this was an hour of work at most! But there's so much tiny fiddling that could mess me up, I feel like it's all inadvertent self-sabotage
-Either way, I'm out of time now, sorry
-If I wanted to spend all night picking apart what could be wrong, I would, but I don't, so I won't**/
+
+/**parts need to start with _ in their file names but like that's it dw**/
+/**you gotta put where the variables are first**/
 
