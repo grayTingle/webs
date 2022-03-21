@@ -1,0 +1,17 @@
+//assign Flex Standard
+//assigning default values to the $align parameters
+@mixin setFlex($direction, $alignv:center, $alignh:space-evenly){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: wrap;
+    
+    //evaluation according to direction in which elements should be visualized
+    @if ($dir == row){
+        justify-content: $alignh;
+        align-content: $alighv;
+    } @else {
+        justify-content: $alignv;
+        align-content: $alignh;
+    }
+
+}

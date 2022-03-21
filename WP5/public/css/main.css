@@ -1,0 +1,64 @@
+.toptit {
+  font-family: "Asul", sans-serif;
+}
+
+.navbar {
+  background-color: #b09ab9;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-family: "Tajawal", sans-serif;
+  display: block;
+  color: #241096;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #f7eeff;
+  color: #241096;
+}
+
+.navbar a:active {
+  background-color: #f7eeff;
+  color: #241096;
+}
+
+.top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #b09ab9;
+}
+
+.topmen a {
+  display: block;
+  color: #241096;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.topmen a:hover {
+  background-color: #f7eeff;
+  color: #241096;
+}
+
+.sec {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b09ab9;
+}
+
+/**parts need to start with _ in their file names but like that's it dw**/
+/**you gotta put where the variables are first**/
+/*# sourceMappingURL=main.css.map */
